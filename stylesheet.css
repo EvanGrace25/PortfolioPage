@@ -16,10 +16,11 @@ p {
 }
 
 .list {  
-    background-color: rgb(174, 214, 188);
+    background-color: rgb(198, 219, 206);
     font-size: 1.2rem;
-    margin: 25px;
-    padding: 4px;
+    margin: 15px;
+    padding: 15px;
+    padding-left: 40px;
     width: 500px;
 }
 
