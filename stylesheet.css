@@ -15,6 +15,10 @@ p {
     font-size: 1.5rem;
 }
 
+.intro > p {
+    font-size: 1.15rem;
+}
+
 .list {  
     background-color: rgb(198, 219, 206);
     font-size: 1.2rem;
@@ -42,4 +46,8 @@ p {
     border: 1px solid black;
     margin: 10px;
     background-color: rgb(198, 219, 206);
+}
+
+.spotlight {
+    font-weight: 800;
 }
