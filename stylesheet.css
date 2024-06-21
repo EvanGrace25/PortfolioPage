@@ -18,7 +18,7 @@ p {
 
 .intro > p {
     font-size: 1.15rem;
-    width: 70%;
+    width: 100%;
 }
 
 .list {  
@@ -40,7 +40,8 @@ p {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    flex-flow: wrap;
 }
 
 .flexpreviews > div {
@@ -48,6 +49,16 @@ p {
     border: 1px solid black;
     margin: 10px;
     background-color: rgb(198, 219, 206);
+}
+
+.flexexercises {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexexercises > div {
+    flex: 1;
+    border: green solid 2px;
 }
 
 .spotlight {
