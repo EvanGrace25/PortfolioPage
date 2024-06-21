@@ -29,3 +29,16 @@ p {
     color: black;
     font-size: 1rem;
 }
+
+.flexpreviews {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 1.3rem;
+}
+
+.flexpreviews > div {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
