@@ -1,0 +1,54 @@
+body {
+    margin: 20px;
+    background-color: rgb(250, 250, 234);
+}
+
+h1 {
+    color: brown;
+    font-size: 2.5rem;
+    margin: 20px;
+}
+
+h2 {
+    color: darkgreen;
+}
+
+.recipeblock {
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.recipeblock > p {
+    font-size: 1.3rem;
+    border: solid black 2px;
+    width: 500px;
+    padding: 30px;
+    background-color: lightgoldenrodyellow;
+}
+
+.intro {
+    background-color: blanchedalmond;   
+    padding: 20px;
+}
+
+.intro > p {
+    font-size: 1.1rem;
+}
+
+.ingredients, .instructions {
+    font-size: 1.2rem;
+    width: 400px;
+    border: solid black 2px;
+    margin: 20px;
+    padding: 10px 0px 10px 30px;
+    background-color: lightgoldenrodyellow;
+}
+
+.instructions {
+    width: 1000px;
+    background-color: rgb(188, 241, 238);
+}
+
+.instructions > li {
+    margin: 10px;
+}
