@@ -1,5 +1,6 @@
 body {
     background-color: rgb(217, 229, 255);
+    width: 100%;
 }
 
 p {
@@ -17,6 +18,7 @@ p {
 
 .intro > p {
     font-size: 1.15rem;
+    width: 70%;
 }
 
 .list {  
