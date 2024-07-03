@@ -63,4 +63,6 @@ p {
 
 .spotlight {
     font-weight: 800;
+    filter: brightness(110%);
+    border-radius: 4px;
 }
